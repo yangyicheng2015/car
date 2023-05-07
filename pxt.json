@@ -1,0 +1,29 @@
+{
+    "name": "car",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "cBit": "github:zhuning239/cBit#a1612bc5be7fc2be0e27c01efbbe281965605d71",
+        "cbit_IR": "github:zhuning239/cBit_IR#f9530e7960fbf246d6a5a209c7a7cfac1f6ea765",
+        "ps2-controller": "github:zhuning239/PS2#e3848df36c1a235a8245b5f002357b31e7451d1c",
+        "cBit-IR V2": "github:zhuning239/cBit_IR_V2#05525c45a20fcfecb4adc19eef20825dcce7137b"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "5.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
